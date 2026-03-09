@@ -1,6 +1,6 @@
 # Maintainer: Christopher Sieh (stelzo) <stelzo@steado.de>
-# Template file — CI replaces 0.1.0, 728fd3e5d79b54f9c113f818dcf35eae7ff6d39634cc9bc4a2f4539a35fd6058,
-# and 726cb33ec670ddc06369e390627623098a1073e2ec2e4121122a8acde5b0ea0c before publishing to the tap.
+# Template file — CI replaces 0.1.0, b0116bac583a840f4a6d363d73b3c645b1d32c033d4c896a52aa2d9bfa55f651,
+# and 0ce501cb4f5148409d4582dcbec640fbe6573a849bef8dba22e23a575785afc6 before publishing to the tap.
 class Marina < Formula
   desc "A dataset manager for robotics to organize, share, and discover datasets and metadata across storage backends."
   homepage "https://codeberg.org/stelzo/marina"
@@ -10,12 +10,12 @@ class Marina < Formula
   on_macos do
     on_arm do
       url "https://uos-robotics.codeberg.page/ppa/bin/marina-#{version}-macos-arm64.tar.gz"
-      sha256 "728fd3e5d79b54f9c113f818dcf35eae7ff6d39634cc9bc4a2f4539a35fd6058"
+      sha256 "b0116bac583a840f4a6d363d73b3c645b1d32c033d4c896a52aa2d9bfa55f651"
     end
 
     on_intel do
       url "https://uos-robotics.codeberg.page/ppa/bin/marina-#{version}-macos-amd64.tar.gz"
-      sha256 "726cb33ec670ddc06369e390627623098a1073e2ec2e4121122a8acde5b0ea0c"
+      sha256 "0ce501cb4f5148409d4582dcbec640fbe6573a849bef8dba22e23a575785afc6"
     end
   end
 
